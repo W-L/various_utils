@@ -4,7 +4,7 @@ library(ggplot2)
 library(ggdendro)
 
 
-inp <- '/Users/lweilguny/Desktop/vetgrid/consensus_te/14_modeltree/matrix.D'
+#inp <- '/Users/lweilguny/Desktop/vetgrid/consensus_te/14_modeltree/matrix.D'
 
 distmat <- read.delim(inp, sep=' ', row.names=1, header=T)
 distmat <- as.dist(distmat, diag=TRUE, upper=TRUE)
